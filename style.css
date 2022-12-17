@@ -1,0 +1,70 @@
+h1{
+    color:rgb(42, 165, 73);
+}
+/* div{
+    color:red;
+    text-align:left;
+    font-size: 25px;
+    
+} */
+ul{
+   list-style-type:none; 
+   font-size: large;
+   font-weight:bolder;
+   font-family:algerian;
+   font-style:italic;
+   background-color: aqua;
+}
+nav{
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: blue;
+    text-align:center;
+}
+main{
+    text-align: center;
+    margin: 100px;
+}
+/* dot symbol used infront of contents or any name given */
+
+.content-body{
+    border: 5px solid green;
+    padding: 50px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+#home{
+    font-size: larger;
+    font-weight:bolder;
+    font-family:algerian;
+    font-style:italic;
+    color: blue;
+}
+#About{
+    font-size: larger;
+    font-weight:bolder;
+    font-family:algerian;
+    font-style:italic;
+    color:red;
+}
+#skills{
+    font-size: larger;
+    font-weight:bolder;
+    font-family:algerian;
+    font-style:italic;
+    color:violet;
+}
+#Projects{
+    font-size: larger;
+    font-weight:bolder;
+    font-family:algerian;
+    font-style:italic;
+    color:brown;
+}
+#Contact{
+    font-size: larger;
+    font-weight:bolder;
+    font-family:algerian;
+    font-style:italic;
+    color:blueviolet;
+}

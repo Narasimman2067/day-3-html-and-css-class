@@ -1,0 +1,16 @@
+what is css?
+css  -> casecade style
+css is defined as that
+ is used  as a tool to style a web page and to
+ given  a designed style structure
+
+ exteranl css  method
+
+ <link rel="stylesheet" href="style.css">
+
+
+properties
+    list property
+    font property
+    border property
+    text properties
