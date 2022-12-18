@@ -10,6 +10,7 @@ h1{
 
 ul{
    list-style-type:none; 
+   padding:5px;
    font-size: large;
    font-weight:bolder;
    font-family:algerian;
@@ -18,8 +19,10 @@ ul{
 }
 li{
     display: inline-block;
-    padding: 8px;
+    padding: 5px;
+    
     color:black;
+
     background-color:violet;
     border-radius :2px;
     border-style:double;
@@ -33,9 +36,14 @@ li{
 nav{
     border: 5px solid red;
     
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: blue;
-    text-align:center;
+    text-align:right;
+}
+body{
+    padding: 10px;
+    border: 5px solid black;
+    
 }
 
 main{
@@ -45,6 +53,8 @@ main{
     font-weight:bolder;
     font-family:algerian; */
     font-style:italic;
+    /* background-color:linear-gradient(yellowgreen); */
+    /* background-color:aqua; */
 }
 /* dot symbol used infront of contents or any name given */
 
@@ -56,7 +66,8 @@ main{
     padding: 50px;
     margin: 10px;
     font-weight:bolder;
-    background-color: aquamarine !important;
+    background-color: aquamarine;
+    border-radius: 10px;
 }
 .heading{
     text-align: center;
@@ -65,6 +76,7 @@ main{
     font-weight:bolder;
     font-family:algerian;
     font-style:italic;
+    border-radius:10px
 
 }
 
@@ -75,6 +87,10 @@ main{
     font-family:algerian;
     font-style:italic; */
     color: blue;
+    padding: 10px;
+    background-color:magenta;
+    border: 5px solid black ;
+
 }
 #About{
     /* font-size: larger;
@@ -82,28 +98,46 @@ main{
     font-family:algerian;
     font-style:italic; */
     color:red;
+    background-color:darkmagenta;
+    border: 5px solid black ;
 }
 #skills{
     /* font-size: larger;
     font-weight:bolder;
     font-family:algerian;
     font-style:italic; */
-    color:violet;
+    color:midnightblue;
+    background-color:darkmagenta;
+    border: 5px solid black ;
 }
 #Projects{
     /* font-size: larger;
     font-weight:bolder;
     font-family:algerian;
     font-style:italic; */
-    color:brown;
+    color:rgb(26, 255, 0);
+    background-color:darkmagenta;
+    border: 5px solid black ;
 }
 #Contact{
     /* font-size: larger;
     font-weight:bolder;
     font-family:algerian;
     font-style:italic; */
-    color:blueviolet;
+    color:greenyellow;
+    background-color:darkmagenta;
+    border: 5px solid black ;
 }
+#Feedback{
+    /* font-size: larger;
+    font-weight:bolder;
+    font-family:algerian;
+    font-style:italic; */
+    color:orangered;
+    background-color:darkmagenta;
+    border: 5px solid black ;
+}
+
 /* this below code for another class declaring */
 .projects-class{
     color:red;
@@ -118,6 +152,28 @@ span{
     height: 200px;
     color: chartreuse;
     background-color: coral;
+}
+section{
+    height: 100vh;
+    border: 10px solid red;
+    border-radius: 4px;
+    background-image:linear-gradient(yellow,green);
+    
+}
+/* this below link is used to unvisited the page and 
+it highlight in brown or what color we give on that folder */
+a:link{
+color:brown;
+}
+a:visited{
+    color:black
+}
+a:hover{
+    color:blue;
+    font-size: larger;
+}
+a:active{
+    color: green;
 }
 
 
