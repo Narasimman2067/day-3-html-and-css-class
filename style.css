@@ -1,66 +1,77 @@
-h1{
+/* h1{
     color:rgb(42, 165, 73);
-}
+} */
 /* div{
     color:red;
     text-align:left;
     font-size: 25px;
     
 } */
+body{
+    padding:0px;
+    margin:0px;
+    position:relative; 
+}
+html{
+    scroll-behavior: smooth;
+}
 
 ul{
-   list-style-type:none; 
-   padding:5px;
+   /* list-style-type:none;  */
+    
+  
    font-size: large;
-   font-weight:bolder;
+   font-weight:lighter;
    font-family:algerian;
    font-style:italic;
-   background-color: aqua;
+   background-color: aqua ;                                 
 }
 li{
     display: inline-block;
-    padding: 5px;
+     padding: 5px; 
     background-color:violet;
-    border-radius :2px;
-    border-style:double;
+    border :5px solid red;  
+     border-style:double;
     border-top-left-radius:0px;
     border-top-right-radius:20px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:0px ;
-    
-
 }
 nav{
-    border: 5px solid red;
-    /* position:sticky;
-    top:25em;
-    right:0;  */
-    bottom:none;
-    border-radius: 10px;
-    background-color: blue;
-    text-align:right;
-}
-body{
-    padding: 10px;
-    border: 5px solid black;
+  
+   width:100%; 
+   border: 5px solid blue;
+    position:fixed; 
+   /* padding:10px; */
+    top:0;  
+   /* bottom:0px;  */
+   /* right:0px; */
+   /* left:0; */
     
+   /* right:0;   */
+   /* bottom:none; */
+   
+    background-color:black; 
+    text-align:right; 
 }
 
 main{
-    /* text-align: center;
-    margin: 100px;
+    text-align: center;
+    margin:100px;
     font-size: larger;
     font-weight:bolder;
-    font-family:algerian; */
+    font-family:algerian; 
     font-style:italic;
-    /* background-color:linear-gradient(yellowgreen); */
-    /* background-color:aqua; */
+    background-color:linear-gradient(yellow,green);
+    background-color:aqua;
 }
+
 /* dot symbol used infront of contents or any name given */
+
 
 .content-body{
     text-align: center;
-    border: 5px solid blue;
+    border: 5px solid #ff0000 !important;
     font-size: larger;
     font-family:algerian;
     padding: 50px;
@@ -68,17 +79,28 @@ main{
     font-weight:bolder;
     background-color: aquamarine;
     border-radius: 10px;
-    background-image:radial-gradient(red 20%,orange 30%,blue);
+    background-image:
+    repeating-radial-gradient(red 20%,orange 30%,white);
 }
+
 .heading{
     text-align: center;
-    margin: 10px;
+    
     font-size: larger;
     font-weight:bolder;
     font-family:algerian;
     font-style:italic;
     border-radius:10px
 
+}
+section{
+    /* padding-top: 30px; */
+    height: 150vh;
+    left: 0;
+    border: 10px solid brown;
+    border-radius: 5px;
+    background-image:linear-gradient(yellow,green);
+    
 }
 
 
@@ -90,7 +112,7 @@ main{
     color: blue;
     padding: 10px;
     background-color:magenta;
-    background-image:conic-gradient(red,orange);
+    background-image:repeating-conic-gradient(red 20%, magenta 20%,orange 30%);
     border: 5px solid black ;
 
 }
@@ -144,27 +166,22 @@ main{
 }
 
 /* this below code for another class declaring */
-.projects-class{
+.Projects-class{
+    border:5px solid blue;
     color:green;
     background-color: blue;
 
 }
 span{
     display: inline-block;
-    border: 5px solid red;
+    border: 5px solid;
     padding: 10px;
     width: 200px;
     height: 200px;
     color: chartreuse;
     background-color: coral;
 }
-section{
-    height: 150vh;
-    border: 5px solid red;
-    border-radius: 4px;
-    background-image:linear-gradient(yellow,green);
-    
-}
+
 /* this below link is used to unvisited the page and 
 it highlight in brown or what color we give on that folder */
 a:link{
@@ -185,7 +202,7 @@ a:active{
     margin: 15px;
     height: 500px;
     padding:10px;
-    background-image: conic-gradient(blue 20%,orange 40%,black);
+    background-image: radial-gradient(blue 20%,magenta 10%, orange 40%,black);
     
 }
 .box{
@@ -217,35 +234,35 @@ border-image:linear-gradient(magenta,orange);
 #sticky:hover{
     border: 5px solid aqua; 
 }
-#absolute{
+/* #absolute{
     background-image:linear-gradient(blue,orange) ;
     /* position:absolute;
     left: none;
     bottom: 0px;
     top: 0px;
     right: 0px; */
-}
+/* }
 #relative{
     background-image:linear-gradient(magenta,orange) ;
     /* position: relative;
     left: 100px;
     bottom: 20px;
     top: 40px; */
-}
+/* }
 #fixed{
     background-image:linear-gradient(blue,aquamarine) ;
     /* position:fixed;
     left: 0px;
     bottom: 20px;
     top: 600px; */
-}
+/* }
 #sticky{
-    background-image:linear-gradient(black,violet) ;
+    background-image:linear-gradient(black,violet) ;  */ 
     /* position:sticky;
     left:0px;
     bottom:0px;
-    top:0px; */
-}
+    top:0px;  */
+/* } */
 
 
 
