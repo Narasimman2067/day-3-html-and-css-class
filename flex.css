@@ -1,0 +1,53 @@
+.main-flex{
+
+    border: 5px solid red;
+    margin-top: 20px;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    /* for x axis change */
+    /* center,
+    flex start
+    flex end
+    space around 
+    space even*/
+    justify-content:center;
+    /* for y axis  change */
+    /* center,
+    flex start
+    flex end
+    space around 
+    space even*/
+    flex-direction:row;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    align-content:center;
+    gap: 1rem;
+}
+h1{
+    text-align: center;
+}
+.flex-div{
+    border:2px solid blue;
+    width: 100px;
+    height: 100px;
+    
+    
+
+}
+/*.flex-div2{ 
+    border:5px solid magenta;
+    width:50px;
+    height: 50px;
+}
+.flex-div3{
+    border:5px solid orange;
+    width:50px;
+    height: 50px; 
+}
+.flex-div4{
+    border:5px solid  aqua;
+    width:50px;
+    height:50px
+} */
