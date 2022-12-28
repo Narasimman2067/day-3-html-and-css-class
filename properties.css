@@ -1,3 +1,11 @@
+*{
+    margin:0px;
+    width:0px;
+    @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+}
+
+
+
 h1{
     font-family: algerian;
     text-align: center;
@@ -6,7 +14,8 @@ h1{
 
 li{
     list-style-type: none;
- font-family:'Times New Roman', Times, serif;
+    
+ /* font-family:'Times New Roman', Times, serif; */
  padding-top: 5vh;
  padding-bottom: 20vh;
  text-align:center;
@@ -32,12 +41,13 @@ button:hover{
 
 .overflow-main{
     border: 5px solid red;
-     width: 300px; 
+     width: 50em; 
     height: 300px;
     background-color: orange;
     text-align: justify;
     font-style:italic;
     font-size: 2em;
+    font-family: 'Prosto One', cursive;
     /*
 
     -webkit-scrollbar :none;
